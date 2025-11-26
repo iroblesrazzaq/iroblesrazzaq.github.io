@@ -68,12 +68,12 @@ body {
 }
 
 .intro {
-  margin-bottom: 64px;
+  margin-bottom: 36px;
 }
 
 .headshot {
-  width: 130px;
-  height: 130px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid var(--border);
@@ -110,6 +110,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  margin-bottom: 48px;
 }
 
 .nav-link {
@@ -172,7 +173,7 @@ body {
 /* Main Content */
 .main-content {
   width: 50%;
-  padding: 100px 12px 100px 72px;
+  padding: 100px 12px 100px 24px;
 }
 
 /* Sections */
