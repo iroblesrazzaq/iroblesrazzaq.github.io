@@ -1,6 +1,3 @@
-/*
- * Personal Website — Cream minimal aesthetic with two-column layout
- */
 
 :root {
   --bg: #f5f1e8;
@@ -403,7 +400,7 @@ body {
   margin-bottom: 12px;
 }
 
-/* Awards List */
+
 .awards-list {
   list-style: none;
   display: flex;

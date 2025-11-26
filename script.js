@@ -1,4 +1,3 @@
-// Active navigation highlighting based on scroll position
 const sections = document.querySelectorAll('.section');
 const navLinks = document.querySelectorAll('.nav-link');
 
@@ -20,14 +19,12 @@ function updateActiveNav() {
     }
   });
 
-  // If we're at the very top, highlight About
   if (window.scrollY < 100) {
     navLinks.forEach((link) => link.classList.remove('active'));
     navLinks[0]?.classList.add('active');
   }
 }
 
-// Throttle scroll events for performance
 let ticking = false;
 window.addEventListener('scroll', () => {
   if (!ticking) {
@@ -39,5 +36,4 @@ window.addEventListener('scroll', () => {
   }
 });
 
-// Run on page load
 updateActiveNav();
