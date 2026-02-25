@@ -356,6 +356,10 @@ body {
   align-items: start;
 }
 
+.project-link.project-link-no-image {
+  grid-template-columns: 1fr;
+}
+
 .project-image {
   width: 72px;
   height: 72px;
@@ -372,18 +376,6 @@ body {
   width: 52px;
   height: 52px;
   object-fit: contain;
-}
-
-.project-image-placeholder {
-  border: 1px solid var(--border);
-  background: linear-gradient(135deg, #f2ecdf, #e6dece);
-}
-
-.project-monogram {
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  color: var(--text);
 }
 
 .project-info {
