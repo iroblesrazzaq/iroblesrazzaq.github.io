@@ -374,6 +374,18 @@ body {
   object-fit: contain;
 }
 
+.project-image-placeholder {
+  border: 1px solid var(--border);
+  background: linear-gradient(135deg, #f2ecdf, #e6dece);
+}
+
+.project-monogram {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--text);
+}
+
 .project-info {
   display: flex;
   flex-direction: column;
@@ -387,6 +399,15 @@ body {
   line-height: 1.4;
 }
 
+.project-title-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-title-link:hover {
+  color: var(--muted);
+}
+
 .project-description {
   font-size: 14px;
   color: var(--muted);
@@ -398,6 +419,22 @@ body {
   font-size: 13px;
   color: var(--muted);
   margin-bottom: 12px;
+}
+
+.tag-link {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+
+.tag-link:hover {
+  background: var(--hover);
+}
+
+.tag-link:visited {
+  color: var(--accent);
 }
 
 
